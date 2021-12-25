@@ -265,5 +265,10 @@ namespace RestaurantManagement
         {
             btnCheckOut_Click(this, new EventArgs());
         }
+
+        private void fTableManager_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

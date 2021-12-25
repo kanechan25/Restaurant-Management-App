@@ -55,13 +55,13 @@ namespace RestaurantManagement
             this.btnDiscount = new System.Windows.Forms.Button();
             this.btnCheckOut = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.nmFoodCount = new System.Windows.Forms.NumericUpDown();
             this.btnAdd = new System.Windows.Forms.Button();
             this.cbFood = new System.Windows.Forms.ComboBox();
             this.cbCategory = new System.Windows.Forms.ComboBox();
             this.flpTable = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -300,6 +300,22 @@ namespace RestaurantManagement
             this.panel4.Size = new System.Drawing.Size(382, 84);
             this.panel4.TabIndex = 3;
             // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(381, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(125, 83);
+            this.panel5.TabIndex = 5;
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::RestaurantManagement.Properties.Resources.farm_restaurant;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Location = new System.Drawing.Point(381, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(115, 82);
+            this.panel1.TabIndex = 6;
+            // 
             // nmFoodCount
             // 
             this.nmFoodCount.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -356,22 +372,6 @@ namespace RestaurantManagement
             this.flpTable.Size = new System.Drawing.Size(607, 583);
             this.flpTable.TabIndex = 4;
             // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = global::RestaurantManagement.Properties.Resources.farm_restaurant;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Location = new System.Drawing.Point(381, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(115, 82);
-            this.panel1.TabIndex = 6;
-            // 
-            // panel5
-            // 
-            this.panel5.Location = new System.Drawing.Point(381, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(125, 83);
-            this.panel5.TabIndex = 5;
-            // 
             // panel6
             // 
             this.panel6.BackgroundImage = global::RestaurantManagement.Properties.Resources.farm_restaurant;
@@ -399,6 +399,7 @@ namespace RestaurantManagement
             this.MaximizeBox = false;
             this.Name = "fTableManager";
             this.Text = "Restaurant Manager";
+            this.Load += new System.EventHandler(this.fTableManager_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);

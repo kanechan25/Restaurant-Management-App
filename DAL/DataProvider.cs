@@ -12,8 +12,6 @@ namespace RestaurantManagement.DAL
     {
         private static DataProvider instance;
 
-        private string connectionStr = @"Data Source=DESKTOP-JQN5FHE\KANE;Initial Catalog=RestaurantManagement;Integrated Security=True";
-
         public static DataProvider Instance 
         {
             get { if (instance == null) instance = new DataProvider();  return DataProvider.instance; }
@@ -22,6 +20,7 @@ namespace RestaurantManagement.DAL
         private DataProvider()
         { }
 
+        private string connectionStr = @"Data Source=DESKTOP-JQN5FHE\KANE;Initial Catalog=RestaurantManagement;Integrated Security=True";
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {   //return a datatable containing data satisfy query execution 
             DataTable data = new DataTable();

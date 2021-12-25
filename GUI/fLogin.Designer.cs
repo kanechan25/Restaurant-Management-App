@@ -94,7 +94,7 @@ namespace RestaurantManagement
             this.panel3.Controls.Add(this.txbPassWord);
             this.panel3.Location = new System.Drawing.Point(10, 59);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(515, 48);
+            this.panel3.Size = new System.Drawing.Size(484, 48);
             this.panel3.TabIndex = 2;
             // 
             // lbPassword
@@ -122,7 +122,7 @@ namespace RestaurantManagement
             this.panel2.Controls.Add(this.txbUserName);
             this.panel2.Location = new System.Drawing.Point(10, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(515, 48);
+            this.panel2.Size = new System.Drawing.Size(484, 48);
             this.panel2.TabIndex = 0;
             // 
             // lbUserName
