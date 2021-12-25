@@ -2,9 +2,9 @@
 # Restaurant Management Software
 - This software supports a Restaurant in ordering dishes, creating bills, payment and other administration.
 - It's developed by C# + Winform + MS SQL Server.
-### Several technic are used in this Software:
-	* 3-layer Design Pattern (GUI - DAL - DTO)
-	* Singleton Pattern
+#### Several technic are used in this Software:
+- 3-layer Design Pattern (GUI - DAL - DTO)
+- Singleton Pattern
 ---
 - Something here might helps you using Software:
 	* The first, build your database by MS SQL Server:
