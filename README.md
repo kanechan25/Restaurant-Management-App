@@ -1,21 +1,32 @@
 ## Hi, I'm Khoa Tran <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> - BIM Technician - Developer 
 # Restaurant Management Software
-- This tool is used in the AEC industry.
-- It's written by C# + Winform
-	<img src="https://github.com/kanechan25/5D-BIM-Software/blob/main/img/0.%20workflowSoftware.PNG">
-- The first, when we run the software, the initial form appears. Here, click [Import Files] button to add files:
-	<img src="https://github.com/kanechan25/5D-BIM-Software/blob/main/img/1.%20ImportFiles.PNG">
-- The results of TIO software that exported to Excel files are supported to format, calculate or get important information for preparing for the next steps:
-	<img src="https://github.com/kanechan25/5D-BIM-Software/blob/main/img/2.%20SupportTIO.PNG">
-- The third stage, we will deal with rebar files. This form helps you calculate accurately the length of rebars, such as rebar hook, rebar bending, or rebar lap splices...
-	Then results will are save and sync to Cloud.
-	<img src="https://github.com/kanechan25/5D-BIM-Software/blob/main/img/3.%20SupportRebars.PNG">
-- Finally, the most important, we calculate, take-off quantity, sum up and fill them to file BOQ (Bill of Quantity).
-Rebars (structure department) also are added together on all final quantity BOQ.
-	Quantities that are classified by categories or leveled by height make Quantity Surveyor easier about quantity management:
-	<img src="https://github.com/kanechan25/5D-BIM-Software/blob/main/img/4.%20BOQform.PNG">
+- This software supports a Restaurant in ordering dishes, creating bills, payment and other administration.
+- It's developed by C# + Winform + MS SQL Server.
+	* The first, build your database by MS SQL Server:
+		1. Open MS SQL Server Management Studio, create a New Query then Copy & Paste from Data.sql file.
+		2. Edit your paths right.
 
-- Hoping it support you a bit in your work!
+	<img src="https://github.com/kanechan25/Restaurant-Management-App/blob/main/img/ReadMe/create_sql.png">
+  
+	* In DataPrivider.cs file, adjust Connection String with your Data Source, then start running program with initial Login:
+		(You can test with User Name "1" and Password "1")
+
+	<img src="https://github.com/kanechan25/Restaurant-Management-App/blob/main/img/ReadMe/initial_run.png">
+  
+	* [Restaurant Manager] Form appears, you can add ordering dishes, total bills, and payment here:
+
+	<img src="https://github.com/kanechan25/Restaurant-Management-App/blob/main/img/ReadMe/order-pages.PNG">
+	
+	* In [Admin] part, you can modify the Food list, category, table list as well as staff's account.
+	* At the [Revenue] tab, the software summarizes the revenue of the restaurant within some days.
+
+	<img src="https://github.com/kanechan25/Restaurant-Management-App/blob/main/img/ReadMe/admin-management.PNG">
+	
+	* Change your User Name and Password or Log Out at the Account menu:
+
+	<img src="https://github.com/kanechan25/Restaurant-Management-App/blob/main/img/ReadMe/account-setting.PNG">
+	- Experience and don't hesitate to share your opinions about the software.
+- Hope it supports you a bit in your works!
 ---
 
 ### 🖥 My Channel YouTube Videos
@@ -33,4 +44,4 @@ Rebars (structure department) also are added together on all final quantity BOQ.
 - [LinkedIn](https://www.linkedin.com/in/kanechan2593/)
 - [Facebook](https://www.facebook.com/khoa2425/)
 - [Reading for funny](https://ngoatv.blogspot.com/)
-### © 2021 kanechan25
+### <img src="https://github.com/kanechan25/kanechan25/blob/main/logo_transparent_ok.png" width="25px"> © 2021 kanechan25
