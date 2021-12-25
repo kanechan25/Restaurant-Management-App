@@ -2,6 +2,11 @@
 # Restaurant Management Software
 - This software supports a Restaurant in ordering dishes, creating bills, payment and other administration.
 - It's developed by C# + Winform + MS SQL Server.
+#### Several technic are used in this Software:
+- 3-layer Design Pattern (GUI - DAL - DTO)
+- Singleton Pattern
+---
+- Something here might helps you using Software:
 	* The first, build your database by MS SQL Server:
 		1. Open MS SQL Server Management Studio, create a New Query then Copy & Paste from Data.sql file.
 		2. Edit your paths right.
@@ -25,7 +30,8 @@
 	* Change your User Name and Password or Log Out at the Account menu:
 
 	<img src="https://github.com/kanechan25/Restaurant-Management-App/blob/main/img/ReadMe/account-setting.PNG">
-	- Experience and don't hesitate to share your opinions about the software.
+	
+	* Experience and don't hesitate to share your opinions about the software.
 - Hope it supports you a bit in your works!
 ---
 
