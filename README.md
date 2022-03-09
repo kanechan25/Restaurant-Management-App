@@ -1,5 +1,8 @@
-## Hi, I'm Khoa Tran <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> - BIM Technician - Developer 
+## Hi, I'm Khoa Tran <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> BIM Technologist - Web Developer 
 # Restaurant Management Software
+- My buddy has started up a tiny business, a very small restaurant. He needs simple software to manage this business.
+- Because of lacking finance and time, I simplified this project by following a project on the internet (Youtube).
+- Fortunately, it's also working so fine!
 - This software supports a Restaurant in ordering dishes, creating bills, payment and other administration.
 - It's developed by C# + Winform + MS SQL Server.
 #### Several technic are used in this Software:
