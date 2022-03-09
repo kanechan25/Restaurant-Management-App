@@ -3,7 +3,7 @@
 - This software supports a Restaurant in ordering dishes, creating bills, payment and other administration.
 - It's developed by C# + Winform + MS SQL Server.
 #### Several technic are used in this Software:
-- 3-layer Design Pattern (GUI - DAL - DTO)
+- 3-layer Design Pattern (GUI - DAL - DTO) - be similar to MVC model
 - Singleton Pattern
 ---
 - Something here might helps you using Software:
@@ -50,4 +50,4 @@
 - [LinkedIn](https://www.linkedin.com/in/kanechan2593/)
 - [Facebook](https://www.facebook.com/khoa2425/)
 - [Reading for funny](https://ngoatv.blogspot.com/)
-### <img src="https://github.com/kanechan25/kanechan25/blob/main/img/interface/logo_transparent_ok.png" width="25px"> © 2021 kanechan25
+### <img src="https://github.com/kanechan25/kanechan25/blob/main/img/interface/logo_transparent_ok.png" width="25px"> © 2022 kanechan25
