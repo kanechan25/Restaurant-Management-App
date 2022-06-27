@@ -1,4 +1,4 @@
-## Hi, I'm Khoa Tran <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> BIM Technologist - Web Developer 
+## Hi, I'm Khoa Tran <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" height="25px"> BIM Technologist - Web Developer 
 # Restaurant Management Software
 - My buddy has started up a tiny business, a very small restaurant. He needs simple software to manage this business.
 - Because of lacking finance and time, I simplified this project by following a project on the internet (Youtube).
