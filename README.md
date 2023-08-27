@@ -53,4 +53,4 @@
 
 - kt.itengineer@gmail.com
 - [Reading for funny (Vietnamese)](https://ngoatv.blogspot.com/)
-### <img src="https://github.com/kanechan25/kanechan25/blob/main/img/interface/logo_ce2dev.png" width="25px"> © 2022 kanechan25
+### <img src="https://github.com/kanechan25/kanechan25/blob/main/img/interface/logo_ce2dev.png" width="25px"> © 2018 kanechan25
